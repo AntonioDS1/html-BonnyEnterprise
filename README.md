@@ -1,7 +1,6 @@
 <a id="readme-top"></a>
 
 <!-- PROJECT SHIELDS -->
-
 ![Stars](https://img.shields.io/github/stars/AntonioDS1/html-BonnyEnterprise?style=for-the-badge)
 ![Forks](https://img.shields.io/github/forks/AntonioDS1/html-BonnyEnterprise?style=for-the-badge)
 ![Issues](https://img.shields.io/github/issues/AntonioDS1/html-BonnyEnterprise?style=for-the-badge)
@@ -10,13 +9,13 @@
 <br />
 <div align="center">
   <a href="https://antoniods1.github.io/html-BonnyEnterprise">
-    <img src="assets/img/bonnyOGImage.png" alt="Logo" width="160">
+    <img src="assets/img/bonny-og-image.png" alt="Logo Bonny" width="180" />
   </a>
 
   <h3 align="center">Bonny – Bonus & Sport Access</h3>
 
   <p align="center">
-    Una piattaforma progettata per semplificare l'accesso ai bonus statali, gestire attività sportive convenzionate e mostrare startup partner tramite un design professionale e moderno.
+    Un portale progettato per semplificare l’accesso ai bonus statali e trasformarli in servizi sportivi concreti tramite startup convenzionate.
     <br />
     <a href="https://antoniods1.github.io/html-BonnyEnterprise"><strong>Visita il sito »</strong></a>
     <br /><br />
@@ -28,23 +27,23 @@
 
 ---
 
-## 🏛️ Overview
+## 🧭 Overview
 
-![Screenshot](assets/img/bonnyOGImage.png)
+![Screenshot](assets/img/bonny-og-image.png)
 
-**Bonny – Bonus & Sport Access** è un progetto web che unisce design elegante, struttura modulare e un modello ad oggetti complesso in TypeScript per simulare l'interazione tra:
+**Bonny – Bonus & Sport Access** è una piattaforma che racconta, organizza e rende trasparente l’intero percorso tra bonus e attività sportive.  
+Il sito combina **design professionale**, **narrativa guidata**, **card dinamiche**, **componenti strutturati** e una **presentazione chiara delle startup** che collaborano alla rete Bonny.
 
-- Startup partner
-- Incentivi statali
-- Cittadini che usufruiscono di attività, servizi e prodotti
+L’applicazione include:
 
-Il progetto si compone di:
-
-✔️ **Frontend HTML/CSS** con layout professionale
-✔️ **JavaScript/TypeScript** per modellare logiche reali e simulare interazioni tra entità
-✔️ **Classi OOP complesse**, relazioni bidirezionali e controllo dei flussi
-✔️ **Sezioni eleganti** con contenuti reali e struttura responsive
-✔️ **Design premium ispirato a siti legali e di consulenza**
+✔️ **Hero dinamica** con messaggio, layout a due colonne e struttura tipo studio professionale  
+✔️ **Sezioni narrative** (Problema → Metodo → Trasformazione → Startup → Cittadini → Contatti)  
+✔️ **Griglia startup** con azioni, dropdown e pulsanti di gestione  
+✔️ **Sezione cittadini** con card, avatar e gestione bonus  
+✔️ **Contatti professionali** con pannelli gerarchici e note legali  
+✔️ **Footer aziendale stile EnerNet/Pomelia**  
+✔️ **Meta tag SEO, OpenGraph, Twitter Card e JSON-LD completi**  
+✔️ **Deploy GitHub Pages**  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -52,78 +51,60 @@ Il progetto si compone di:
 
 ## 🧠 Funzionalità Principali
 
-### 🔹 1. Modello ad Oggetti Avanzato in TypeScript
-Interfacce + classi per:
+### 🔹 1. Percorso utente narrativo
+Il sito guida l’utente attraverso una sequenza chiara:
 
-- **IStartup**
-- **IIncentivo**
-- **ICittadino**
+- Problema → perché i bonus vengono persi  
+- Metodo Bonny → come funziona l’assistenza  
+- Trasformazione → prima/dopo  
+- Startup convenzionate  
+- Cittadini che hanno già usato il bonus  
 
-Relazioni tra:
+### 🔹 2. Struttura dinamica delle Startup
+Card responsive con:
 
-- Startup ⇄ Incentivi
-- Cittadini → Uso di prodotti/servizi/attività
-- Controlli e verifiche pre-utilizzo
+- Profilazione
+- Dropdown per gestire prodotti, servizi, attività, incentivi
+- Pulsanti azione
+- Sistema "Load More"  
 
----
+### 🔹 3. Sezione Cittadini realistico-narrativa
+Ogni card presenta:
 
-### 🔹 2. Gestione Startup Convenzionate
-Ogni startup include:
+- Avatar
+- Età e esperienza
+- Startup collegata
+- Dropdown gestione bonus
+- Pulsante “Profilazione”
 
-- Prodotti
-- Servizi
-- Attività sportive
-- Incentivi ricevuti
+### 🔹 4. Meta Tag completi
+Implementazione completa:
 
-Con metodi per:
+- Open Graph (og:image, url, locale, site_name…)
+- Twitter Card (summary_large_image)
+- Canonical assoluto
+- Manifest & Icons
+- Schema.org JSON-LD "Organization"
 
-- Inserire
-- Rimuovere
-- Profilare
+### 🔹 5. Design coerente stile studio professionale
+Elementi caratterizzanti:
 
----
-
-### 🔹 3. Sistema Incentivi Bidirezionale
-Ogni incentivo:
-
-- Può essere assegnato a più startup
-- Aggiorna automaticamente entrambe le entità
-- Supporta criteri di eleggibilità dinamici
-- Consente gestione, modifica e rimozione
-
----
-
-### 🔹 4. Simulazione delle Attività dei Cittadini
-I cittadini possono:
-
-- Usufruire di prodotti e servizi
-- Partecipare ad attività
-- Visualizzare e rimuovere informazioni
-- Avere un profilo dettagliato
-
----
-
-### 🔹 5. Profilazione Avanzata
-Ogni classe include un metodo `.profilo*()` che:
-
-- Mostra dettagli completi
-- Elenca relazioni attive
-- Evidenzia interazioni recenti
-
-Utile per debugging e simulazioni.
+- Serif/Inter typography
+- Struttura legale
+- Icone minimaliste
+- Layout ispirato a siti istituzionali moderni
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
 
-## 🧱 Built With
+## 🛠️ Built With
 
 - **HTML5**
 - **CSS3**
-- **TypeScript (OOP, interfacce, classi, relazioni bidirezionali)**
-- **JavaScript (per integrazione compilata)**
-- **GitHub Pages** per il deploy
-- **Design responsive** ispirato a portali moderni di consulenza
+- **JavaScript**
+- **JSON-LD (schema.org)**
+- **GitHub Pages** per hosting e deploy
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -131,19 +112,13 @@ Utile per debugging e simulazioni.
 
 ## 🚀 Getting Started
 
-Per eseguire il progetto in locale:
-
-### 1️⃣ Clona la repository
-
+### 1️⃣ Clona il repository
 
 git clone https://github.com/AntonioDS1/html-BonnyEnterprise.git
-### 2️⃣ Apri il progetto
-Apri index.html nel browser.
-Non sono richieste dipendenze.
+### 2️⃣ Avvia il progetto
+Non servono dipendenze:
+👉 Apri index.html nel browser
 
-### 3️⃣ Per compilare TypeScript (opzionale)
-
-tsc --watch
 🔗 Link Utili
 🌐 Live Website
 👉 https://antoniods1.github.io/html-BonnyEnterprise/
@@ -151,13 +126,12 @@ tsc --watch
 📂 Repository GitHub
 👉 https://github.com/AntonioDS1/html-BonnyEnterprise
 
-🧪 CodePen Demo
+🧪 CodePen Demo (se prevista)
 👉 https://codepen.io/Antonio-De-Siena/pen/VYaRZMv
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 📬 Contact
 Antonio De Siena
-
 GitHub: https://github.com/AntonioDS1
 Project Link: https://antoniods1.github.io/html-BonnyEnterprise
 
