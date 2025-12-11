@@ -131,7 +131,7 @@ Non servono dipendenze:
 👉 https://github.com/AntonioDS1/html-BonnyEnterprise
 
 
-🧪 CodePen Demo (se prevista)
+🧪 CodePen Demo 
 
 👉 https://codepen.io/Antonio-De-Siena/pen/VYaRZMv
 
@@ -148,5 +148,6 @@ Project Link: https://antoniods1.github.io/html-BonnyEnterprise
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> ```
+
 
 
