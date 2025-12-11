@@ -120,19 +120,33 @@ Non servono dipendenze:
 👉 Apri index.html nel browser
 
 🔗 Link Utili
+
 🌐 Live Website
+
 👉 https://antoniods1.github.io/html-BonnyEnterprise/
 
+
 📂 Repository GitHub
+
 👉 https://github.com/AntonioDS1/html-BonnyEnterprise
 
+
 🧪 CodePen Demo (se prevista)
+
 👉 https://codepen.io/Antonio-De-Siena/pen/VYaRZMv
 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 📬 Contact
+
 Antonio De Siena
+
 GitHub: https://github.com/AntonioDS1
+
 Project Link: https://antoniods1.github.io/html-BonnyEnterprise
 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p> ```
+
+
